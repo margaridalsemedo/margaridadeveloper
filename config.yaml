@@ -1,0 +1,138 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Margarida Semedo"
+theme: "./.."
+relativeURLs: true
+
+googleanalytics: UA-xxxxxx-x
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+params:
+  version: 3
+
+  favicon: "/images/fav.png"
+  description: "Margarida Semedo - Front-end Developer & Visual Designer"
+
+  # Navbar Menus
+  customMenus:
+    - name: "Blog"
+      Url: "/blog"
+
+  # home
+  disable_home: false
+  profile_image: "./images/profile.jpg"
+  name: "Margarida Semedo"
+  namecolor: ffc107
+  profession: "Front-end Developer"
+  github: "https://github.com/margaridalsemedo"
+  linkedin: "https://www.linkedin.com/in/margarida-semedo-156642199/"
+  codepen: "https://codepen.io/Margaridalsemedo"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "Hi, I'm an eternal curious a enthusiastic Frontend developer and visual designer. I’m seeking an entry-level position in Frontend that allows me to use and expand my skills in development, solving complex problems, assisting in the completion of projects and above all seeking to translate and optimize user and business needs into functional Frontend ."
+  descripe_l2_person: " You can find my works [here](#projects)"
+  skills:
+    - name: HTML
+      percentage: 90
+    - name: CSS
+      percentage: 85
+    - name: Javascript
+      percentage: 80
+    - name: React
+      percentage: 60
+    - name: Adobe
+      percentage: 90
+    - name: Figma
+      percentage: 70
+
+  # Experience
+  disable_experience: false
+  experience:
+    - company: "Castelhana Real Estate"
+      role: "Visual Designer & Public Relations"
+      startdate: Jan 2017
+      enddate: August 2021
+      featuredpoints:
+        - point: UX/UI Designer of Castelhana's website.
+        - point: Content creator and manager.
+
+    - company: "Accenture"
+      role: "Data Analyst"
+      startdate: Nov 2019
+      enddate: May 2020
+      featuredpoints:
+        - point: Data analysis and interpretation.
+
+  # Education
+  disable_education: false
+  education:
+    - degree: "Course"
+      branch: "Front-end Development"
+      university: "EDIT. - Disruptive Digital Education"
+      startedyear: "2021"
+
+    - degree: "Post-graduation"
+      branch: "Public  Relations & enterprise communication"
+      university: "Escola Superior de Comunicação Social"
+      startedyear: "2018"
+      graduation: "2019"
+    - degree: "Bachelor"
+      branch: "Multimedia Design"
+      university: "Universidade da Beira Interior"
+      startedyear: "2013"
+      graduation: "2016"
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "Halls"
+      img: "./images/halls.jpg"
+      githublink: "https://github.com/margaridalsemedo/Halls.git"
+      featuredlink: "https://halls-desembrulhaomomento.netlify.app"
+      description: "Design and development of a project for Halls school projet. "
+
+    - name: "Awesome Books"
+      img: /images/awesomebooks.jpg
+      githublink: "https://github.com/margaridalsemedo/Awesomebooks"
+      featuredlink: "https://awesome-books-edit.netlify.app"
+      description: "Redesign and development of the bookstore Awesome Books for a school project. "
+
+  # Achievements
+  disable_achievements: true
+  achievements:
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+    - title: Competition winner
+      description: We are developed a product which can help others.
+      img: /images/achiv.jpg
+
+  # Contact
+  disable_contact: false
+  contact_content: Drop me a line. I'd like to hear from you!
+  email: "margaridalsemedo@gmail.com"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: false
+
+  # Blog
+  showdescription: false
+  tweet: false
